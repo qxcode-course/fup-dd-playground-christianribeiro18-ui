@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_18-01-57",
+            "content": "@@ -133,9 +133,8 @@\n ncas)%0A%7D%0A\n-%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_18-02-02",
+            "content": "@@ -133,17 +133,8 @@\n ncas\n-%25criancas\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-03-41",
+            "content": "@@ -133,17 +133,8 @@\n ncas\n-, bombons\n %25cri\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-04-18",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var bombons, criancas int\n    fmt.Scan(&bombons, &criancas)\n    fmt.Println(bombons/criancas, bombons%criancas)\n}\n\n",
+            "lines": "8"
+        }
+    ]
+}

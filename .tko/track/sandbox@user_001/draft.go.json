@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-14-14",
+            "content": "@@ -54,41 +54,14 @@\n ln(%22\n-rato%22)%0A    fmt.Println(%22ol%C3%A1 mundo\n+qxcode\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-34-54",
+            "content": "@@ -37,16 +37,8 @@\n ) %7B%0A\n-    var%0A\n     \n@@ -54,13 +54,11 @@\n ln(%22\n-gigol\n+rat\n o%22)%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-03-10_17-38-59",
+            "content": "@@ -44,23 +44,8 @@\n  var\n- num1, num2 int\n %0A   \n@@ -98,20 +98,8 @@\n ndo%22\n-, num1, num2\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-40-19",
+            "content": "@@ -23,17 +23,8 @@\n mt%22%0A\n-num1 = 2%0A\n func\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-40-44",
+            "content": "@@ -19,16 +19,25 @@\n t %22fmt%22%0A\n+num1 = 2%0A\n func mai\n@@ -65,35 +65,11 @@\n um2 \n-float64%0A    fmt.scan(&num1)\n+int\n %0A   \n@@ -138,12 +138,4 @@\n )%0A%7D%0A\n-tko open\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-43-08",
+            "content": "@@ -63,26 +63,13 @@\n at64\n- //variavel\n %0A    \n-//\n fmt.\n@@ -83,59 +83,8 @@\n um1)\n- //lendo e escrevendo EM num1%0A    //fmt.scan(&num2)\n %0A   \n@@ -151,6 +151,14 @@\n m2)%0A\n-%0A\n %7D\n+%0Atko open\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-49-20",
+            "content": "@@ -46,16 +46,17 @@\n ar num1,\n+ \n num2 flo\n@@ -71,24 +71,26 @@\n ariavel%0A    \n+//\n fmt.scan(&nu\n@@ -122,24 +122,26 @@\n EM num1%0A    \n+//\n fmt.scan(&nu\n@@ -144,16 +144,42 @@\n (&num2)%0A\n+    fmt.Println(%22gigolo%22)%0A\n     fmt.\n@@ -211,9 +211,10 @@\n , num2)%0A\n+%0A\n %7D\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-52-10",
+            "content": "@@ -70,26 +70,24 @@\n ariavel%0A    \n-//\n fmt.scan(&nu\n@@ -123,18 +123,16 @@\n um1%0A    \n-//\n fmt.scan\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-53-49",
+            "content": "@@ -70,24 +70,26 @@\n ariavel%0A    \n+//\n fmt.scan(&nu\n@@ -121,24 +121,26 @@\n EM num1%0A    \n+//\n fmt.scan(&nu\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-57-07",
+            "content": "@@ -70,26 +70,24 @@\n ariavel%0A    \n-//\n fmt.scan(&nu\n@@ -123,18 +123,16 @@\n um1%0A    \n-//\n fmt.scan\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-57-29",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1,num2 float64 //variavel\n    //fmt.scan(&num1) //lendo e escrevendo EM num1\n    //fmt.scan(&num2)\n    fmt.Println(\"ol\u00e1 mundo\", num1, num2)\n}",
+            "lines": "8"
+        }
+    ]
+}

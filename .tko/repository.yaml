@@ -1,0 +1,33 @@
+version: '0.2'
+sources:
+- name: sandbox
+  target: sandbox
+  type: local
+  writeable: true
+  quests: null
+  tasks: null
+- name: fup
+  target: https://github.com/qxcodefup/arcade.git
+  type: git
+  writeable: false
+  cache_timestamp: '2026-03-16 18:12:16'
+  quests: null
+  tasks: null
+expanded:
+- fup@missão-operações
+- fup@campanha-principal
+- sandbox@sandbox
+- sandbox@sandbox:00_rascunhos
+tasks:
+  fup@tres: '{self:1, rate:100}'
+  fup@resto: '{self:1, rate:100, study:6}'
+  fup@media: '{self:1, rate:100, study:9, friend:gabriel}'
+flags:
+  painel: 2
+  quests: 1
+  tracks: 0
+  tasks: 0
+  task_graph_mode: 0
+  show_time: 0
+lang: go
+selected: fup@sobrou
