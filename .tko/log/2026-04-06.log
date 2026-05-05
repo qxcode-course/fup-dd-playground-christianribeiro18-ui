@@ -1,0 +1,187 @@
+2026-04-06 16:59:16, MOVE, v:1, k:fup@pr_jokenpo, mode:DOWN
+2026-04-06 17:08:14, MOVE, v:1, k:fup@tv, mode:DOWN
+2026-04-06 17:11:17, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-04-06 17:11:18, EXEC, v:1, k:fup@pintando, mode:FULL, size:27, fail:COMP
+2026-04-06 17:11:19, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:20, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:20, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:20, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:20, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:21, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:21, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:21, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:21, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:21, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:27, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:29, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-04-06 17:11:33, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-04-06 17:11:34, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:35, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:36, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:36, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:11:36, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:12:16, EXEC, v:1, k:fup@pintando, mode:FULL, size:27, fail:COMP
+2026-04-06 17:12:17, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:12:17, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:13:23, EXEC, v:1, k:fup@pintando, mode:FULL, size:27, fail:COMP
+2026-04-06 17:13:24, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:15:10, EXEC, v:1, k:fup@pintando, mode:FULL, size:18, fail:COMP
+2026-04-06 17:15:11, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:15:12, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:15:12, EXEC, v:1, k:fup@pintando, mode:FULL, fail:COMP
+2026-04-06 17:17:42, EXEC, v:1, k:fup@pintando, mode:FULL, size:18, fail:COMP
+2026-04-06 17:17:50, EXEC, v:1, k:fup@pintando, mode:FULL, size:18, fail:COMP
+2026-04-06 17:18:02, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:19
+2026-04-06 17:18:10, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:20
+2026-04-06 17:18:52, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:21
+2026-04-06 17:18:54, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:55, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:55, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:55, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:56, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:56, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:56, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:57, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:57, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:57, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:58, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:58, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:58, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:59, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:59, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:18:59, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:00, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:00, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:00, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:00, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:01, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:01, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:01, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:02, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:02, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:02, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:03, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:03, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:03, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:03, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:04, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:04, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:04, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:05, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:05, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:05, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:05, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:06, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:06, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:06, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:07, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:07, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:07, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:07, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:08, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:08, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:08, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:09, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:09, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:09, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:09, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:10, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:10, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:10, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:11, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:11, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:11, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:11, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:12, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:12, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:12, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:12, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:13, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:13, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:13, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:14, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:14, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:14, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:15, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:15, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:15, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:15, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:16, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:16, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:16, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:16, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:17, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:17, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:18, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:18, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:18, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:18, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:19, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:19, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:19, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:20, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:20, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:20, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:20, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:21, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:21, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:21, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:21, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:22, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:22, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:22, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:23, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:23, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:23, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:24, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:24, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:24, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:24, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:25, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:25, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:25, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:26, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:26, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:26, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:26, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:27, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:27, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:27, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:28, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:28, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:19:30, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:28:18, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:30:34, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:21
+2026-04-06 17:30:36, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:30:36, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:35:41, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-04-06 17:35:42, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:21
+2026-04-06 17:35:46, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:35:47, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:35:47, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:35:47, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:35:47, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:35:48, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-04-06 17:37:18, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:18
+2026-04-06 17:38:51, EXEC, v:1, k:fup@pintando, mode:FULL, rate:100, size:14
+2026-04-06 17:39:11, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-04-06 17:39:54, SELF, v:1, k:fup@pintando, self:1, rate:100, friend:Hanna, concept:1, refactor:1
+2026-04-06 17:40:01, SELF, v:1, k:fup@pintando, self:1, rate:100, friend:Hanna, concept:1, refactor:1
+2026-04-06 17:40:14, MOVE, v:1, k:fup@bala, mode:DOWN
+2026-04-06 17:51:40, MOVE, v:1, k:fup@opala, mode:DOWN
+2026-04-06 17:51:41, MOVE, v:1, k:fup@opala, mode:PICK
+2026-04-06 17:51:42, EXEC, v:1, k:fup@opala, mode:FULL, rate:0, size:5
+2026-04-06 17:51:46, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 17:54:38, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 17:55:11, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 17:55:18, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 17:55:19, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 17:55:20, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 17:55:21, EXEC, v:1, k:fup@opala, mode:FULL, rate:0
+2026-04-06 18:07:46, MOVE, v:1, k:fup@opala, mode:BACK
+2026-04-06 18:16:18, MOVE, v:1, k:fup@bala, mode:PICK
+2026-04-06 18:16:19, EXEC, v:1, k:fup@bala, mode:FULL, rate:0, size:11
+2026-04-06 18:16:21, EXEC, v:1, k:fup@bala, mode:FULL, rate:0
+2026-04-06 18:16:22, EXEC, v:1, k:fup@bala, mode:FULL, rate:0
+2026-04-06 18:18:15, EXEC, v:1, k:fup@bala, mode:FULL, rate:0, size:11
+2026-04-06 18:27:39, EXEC, v:1, k:fup@bala, mode:FULL, rate:100, size:10

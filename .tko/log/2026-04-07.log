@@ -1,0 +1,288 @@
+2026-04-07 16:23:01, SELF, v:1, k:fup@bala, self:1, rate:100, friend:Hanna
+2026-04-07 16:23:19, SELF, v:1, k:fup@tres, self:1, rate:100
+2026-04-07 16:23:59, SELF, v:1, k:fup@pintando, self:1, rate:100, friend:Hanna, concept:1, refactor:1
+2026-04-07 16:24:06, MOVE, v:1, k:fup@quebrada, mode:DOWN
+2026-04-07 16:24:07, MOVE, v:1, k:fup@quebrada, mode:PICK
+2026-04-07 16:24:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:5
+2026-04-07 17:07:08, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:07:20, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:07:41, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:07:42, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:07:42, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:07:43, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:07:43, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:07:43, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:08:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:08:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:08:36, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:08:56, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:09:06, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:09:34, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:10:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:10:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:11:40, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:11:55, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:8
+2026-04-07 17:11:56, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:12:31, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:12:45, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:12:46, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:47, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:47, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:48, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:48, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:48, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:48, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:48, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:49, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:49, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:49, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:49, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:50, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:50, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:12:50, EXEC, v:1, k:fup@quebrada, mode:FULL, fail:COMP
+2026-04-07 17:13:14, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:13:34, EXEC, v:1, k:fup@quebrada, mode:FREE, size:9
+2026-04-07 17:14:16, MOVE, v:1, k:fup@quebrada, mode:PICK
+2026-04-07 17:14:17, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:15:04, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:15:40, EXEC, v:1, k:fup@quebrada, mode:FULL, size:9, fail:COMP
+2026-04-07 17:15:49, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0, size:9
+2026-04-07 17:15:51, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:07, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:12, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:12, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:12, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:18, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:18, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:19, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:19, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:19, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:23, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:24, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:25, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:27, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:29, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:16:30, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:02, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:02, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:02, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:03, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:03, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:04, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:04, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:05, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:05, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:06, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:06, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:06, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:07, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:07, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:07, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:07, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:08, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:08, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:08, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:09, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:10, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:11, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:12, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:12, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:12, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:18, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:18, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:18, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:19, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:19, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:19, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:20, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:20, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:20, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:23, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:23, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:23, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:24, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:24, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:24, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:24, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:25, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:25, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:25, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:27, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:27, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:27, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:29, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:29, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:29, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:30, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:30, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:30, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:32, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:32, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:32, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:33, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:33, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:33, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:33, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:34, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:34, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:34, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:34, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:35, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:35, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:35, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:36, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:36, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:36, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:36, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:37, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:18:37, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:21, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:22, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:23, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:24, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:25, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:25, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:26, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:27, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:28, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:29, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:30, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:30, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:32, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:32, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:33, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:35, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:19:35, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:20:36, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:22:32, MOVE, v:1, k:fup@quebrada, mode:PICK
+2026-04-07 17:22:37, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:13, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:14, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:15, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:16, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:17, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:18, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:0
+2026-04-07 17:23:31, EXEC, v:1, k:fup@quebrada, mode:FULL, rate:100, size:9
+2026-04-07 17:24:22, MOVE, v:1, k:fup@quebrada, mode:BACK
+2026-04-07 17:25:17, SELF, v:1, k:fup@quebrada, self:1, rate:100, friend:Gabriel
+2026-04-07 17:25:20, MOVE, v:1, k:fup@operacoes, mode:DOWN
+2026-04-07 17:38:43, MOVE, v:1, k:fup@operacoes, mode:PICK
+2026-04-07 17:38:46, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:13
+2026-04-07 17:38:46, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 17:40:38, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 17:45:29, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:12
+2026-04-07 17:47:37, EXEC, v:1, k:fup@operacoes, mode:FULL, size:12, fail:COMP
+2026-04-07 17:47:50, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:12
+2026-04-07 17:47:51, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-04-07 17:47:45, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 17:47:51, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 17:56:12, EXEC, v:1, k:fup@operacoes, mode:FULL, size:12, fail:COMP
+2026-04-07 17:56:29, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:12
+2026-04-07 17:57:06, EXEC, v:1, k:fup@operacoes, mode:FULL, size:12, fail:COMP
+2026-04-07 17:57:23, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:12
+2026-04-07 17:58:04, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:12
+2026-04-07 17:57:57, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 17:58:04, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 18:01:47, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:12
+2026-04-07 18:02:14, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:100, size:12
+2026-04-07 18:02:12, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 18:02:14, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-04-07 18:03:52, MOVE, v:1, k:fup@operacoes, mode:BACK
+2026-04-07 18:04:05, SELF, v:1, k:fup@operacoes, self:1, rate:100, guided:1
+2026-04-07 18:05:26, MOVE, v:1, k:fup@abs, mode:DOWN
+2026-04-07 18:05:43, MOVE, v:1, k:fup@abs, mode:PICK
+2026-04-07 18:05:45, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:5
+2026-04-07 18:06:04, MOVE, v:1, k:fup@abs, mode:BACK
+2026-04-07 18:06:05, MOVE, v:1, k:fup@abs, mode:PICK
+2026-04-07 18:06:07, EXEC, v:1, k:fup@abs, mode:FULL, rate:0
+2026-04-07 18:06:22, MOVE, v:1, k:fup@abs, mode:BACK
+2026-04-07 18:06:23, MOVE, v:1, k:fup@abs, mode:PICK
+2026-04-07 18:06:25, EXEC, v:1, k:fup@abs, mode:FULL, rate:0
+2026-04-07 18:05:26, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-07 18:08:23, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-07 18:06:25, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-07 18:12:06, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-07 18:18:26, MOVE, v:1, k:fup@abs, mode:EDIT

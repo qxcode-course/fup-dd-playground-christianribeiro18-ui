@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_17-16-50",
+            "content": "@@ -135,18 +135,8 @@\n nt(%22\n-celsius== \n $$T_\n@@ -160,12 +160,21 @@\n  + 32$$%22\n+, celsius\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-31_17-17-21",
+            "content": "@@ -139,16 +139,17 @@\n celsius=\n+=\n  $$T_f =\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-31_17-17-30",
+            "content": "@@ -1,182 +1,100 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A   var celsius float64%0A   var fahrenheit float64%0A   fmt.Scan(&celsius, &fahrenheit)%0A   fmt.Println(celsius, %22$$T_f = 1.8 %5Ccdot T_c + 32$$%22)%0A%7D\n+@@ -133,19 +133,18 @@%0A rint%0A-ln%0A (%0A+%2522%0A celsius=%0A =%2522$$%0A@@ -143,10 +143,9 @@%0A ius=%0A-=%2522%0A+ %0A $$T_\n %0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-31_17-22-43",
+            "content": "@@ -106,13 +106,11 @@\n sius\n-)%0A   \n+, &\n fahr\n@@ -119,59 +119,64 @@\n heit\n-= 1.8 * celsius+32%0A   fmt.Printf(%22%25.6f%22, fahrenheit\n+)%0A   fmt.Println(celsius, %22$$T_f = 1.8 %5Ccdot T_c + 32$$%22\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-31_17-34-30",
+            "content": "@@ -159,10 +159,8 @@\n %25.6f\n-%5Cn\n %22, f\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-31_17-35-08",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n   var celsius float64\n   var fahrenheit float64\n   fmt.Scan(&celsius)\n   fahrenheit= 1.8 * celsius+32\n   fmt.Printf(\"%.6f\\n\", fahrenheit)\n}\n",
+            "lines": "9"
+        }
+    ]
+}

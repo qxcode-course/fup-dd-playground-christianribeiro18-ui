@@ -1,0 +1,69 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_17-33-08",
+            "content": "@@ -41,158 +41,35 @@\n     \n-var A, B int%0A    fmt.Scan(&A, &B)%0A    if A%3EB %7B%0A        fmt.Println(A,%22A maior que B%22)%0A    %7D else if B%3EA %7B%0A        fmt.Println(B, %22B maior que A%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-28_17-39-54",
+            "content": "@@ -105,16 +105,32 @@\n rintln(A\n+,%22A maior que B%22\n )%0A    %7D \n@@ -164,16 +164,33 @@\n rintln(B\n+, %22B maior que A%22\n )%0A    %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-40-09",
+            "content": "@@ -109,24 +109,8 @@\n ln(A\n-,%22A maior que B%22\n )%0A  \n@@ -152,25 +152,8 @@\n ln(B\n-, %22B maior que A%22\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-40-35",
+            "content": "@@ -105,16 +105,32 @@\n rintln(A\n+,%22A maior que B%22\n )%0A    %7D \n@@ -164,16 +164,33 @@\n rintln(B\n+, %22B maior que A%22\n )%0A    %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-41-10",
+            "content": "@@ -109,24 +109,8 @@\n ln(A\n-,%22A maior que B%22\n )%0A  \n@@ -152,25 +152,8 @@\n ln(B\n-, %22B maior que A%22\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-43-29",
+            "content": "@@ -123,16 +123,76 @@\n que B%22)%0A\n+    %7D else if B%3EA %7B%0A        fmt.Println(B, %22B maior que A%22)%0A\n     %7D%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-48-34",
+            "content": "@@ -127,68 +127,8 @@\n B%22)%0A\n-    %7D else if B%3EA %7B%0A        fmt.Println(B, %22B maior que A%22)%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-28_17-48-51",
+            "content": "@@ -164,16 +164,33 @@\n rintln(B\n+, %22B maior que A%22\n )%0A    %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-49-07",
+            "content": "@@ -105,16 +105,32 @@\n rintln(A\n+,%22A maior que B%22\n )%0A    %7D \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-49-17",
+            "content": "@@ -109,24 +109,8 @@\n ln(A\n-,%22A maior que B%22\n )%0A  \n@@ -152,25 +152,8 @@\n ln(B\n-, %22B maior que A%22\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-49-35",
+            "content": "@@ -105,16 +105,32 @@\n rintln(A\n+,%22A maior que B%22\n )%0A    %7D \n@@ -164,16 +164,33 @@\n rintln(B\n+, %22B maior que A%22\n )%0A    %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-51-32",
+            "content": "@@ -84,9 +84,8 @@\n f A%3E\n-=\n B %7B%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-51-57",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B int\n    fmt.Scan(&A, &B)\n    if A>=B {\n        fmt.Println(A)\n    } else if B>A {\n        fmt.Println(B)\n    }\n}\n",
+            "lines": "11"
+        }
+    ]
+}

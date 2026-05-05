@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_17-38-46",
+            "content": "@@ -181,10 +181,11 @@\n B)%0A    %0A\n+%0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-07_17-45-29",
+            "content": "@@ -154,18 +154,11 @@\n tln(\n-%22\n A/B\n-%22, int\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-47-37",
+            "content": "@@ -155,16 +155,21 @@\n ln(%22A/B%22\n+, int\n )%0A    fm\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-47-50",
+            "content": "@@ -155,40 +155,12 @@\n ln(%22\n-%25.2f%5Cn%22, float64 (A)%25float64(B) \n+A/B%22\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-56-12",
+            "content": "@@ -175,9 +175,9 @@\n  (A)\n-/\n+%25\n floa\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-56-29",
+            "content": "@@ -160,19 +160,23 @@\n .2f%5Cn%22, \n-int\n+float64\n  (A)/flo\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-57-06",
+            "content": "@@ -168,19 +168,23 @@\n int (A)/\n-int\n+float64\n (B) )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-57-23",
+            "content": "@@ -154,11 +154,33 @@\n tln(\n-A/B\n+%22%25.2f%5Cn%22, int (A)/int(B) \n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-58-04",
+            "content": "@@ -151,41 +151,14 @@\n rint\n-(%22%25.2f%5Cn%22, float64 (A)/float64(B)\n+ln(A/B\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_18-01-47",
+            "content": "@@ -147,17 +147,16 @@\n mt.Print\n-f\n (%22%25.2f%5Cn\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_18-02-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B int\n    fmt.Scan(&A, &B)\n    fmt.Println(A+B)\n    fmt.Println(A-B)\n    fmt.Println(A*B)\n    fmt.Printf(\"%.2f\\n\", float64 (A)/float64(B))\n    fmt.Println(A%B)\n    \n}\n",
+            "lines": "12"
+        }
+    ]
+}

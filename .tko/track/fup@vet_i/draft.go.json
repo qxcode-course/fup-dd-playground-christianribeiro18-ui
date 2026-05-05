@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-14_16-43-31",
+            "content": "@@ -41,94 +41,35 @@\n     \n-var nomes %5B%5Dstring = %5B%5Dstring%7B%22uva%22, %22ovo%22, %22eva%22%7D%0A    fmt.Println(nomes%5B2%5D) //uva%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-14_16-59-43",
+            "content": "@@ -45,100 +45,90 @@\n var \n-qtd int%0A    fmt.Scan(&qtd)%0A    var idade %5B%5Dint = make(%5B%5Dint, qtd)%0A    fmt.Println(idade, qtd)\n+nomes %5B%5Dstring = %5B%5Dstring%7B%22uva%22, %22ovo%22, %22eva%22%7D%0A    fmt.Println(nomes%5B2%5D) //uva%0A    \n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-04-14_17-03-32",
+            "content": "@@ -41,17 +41,19 @@\n     var \n-N\n+qtd\n  int%0A   \n@@ -62,17 +62,20 @@\n mt.Scan(\n-N\n+&qtd\n )%0A    va\n@@ -80,18 +80,20 @@\n var \n- arr\n+idade\n  %5B%5Dint\n+ \n = ma\n@@ -106,125 +106,39 @@\n nt, \n-N)%0A    for i := range arr %7B%0A        fmt.Scan(&arr%5Bi%5D)%0A    %7D%0A    for i := range arr %7B%0A        fmt.Println(arr%5Bi%5D)%0A    %7D\n+qtd)%0A    fmt.Println(idade, qtd)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-14_17-42-52",
+            "content": "@@ -169,15 +169,8 @@\n r i \n-,valor \n := r\n@@ -204,13 +204,14 @@\n tln(\n-valor\n+arr%5Bi%5D\n )%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_17-43-46",
+            "content": "@@ -167,9 +167,9 @@\n for \n-_\n+i\n  ,va\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_17-44-57",
+            "content": "@@ -60,17 +60,16 @@\n mt.Scan(\n-&\n N)%0A    v\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_17-45-29",
+            "content": "@@ -160,55 +160,8 @@\n   %7D%0A\n-    if N == 0 %7B%0A        fmt.Print(%22%5Cn%22)%0A    %7D%0A%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_17-47-54",
+            "content": "@@ -203,33 +203,40 @@\n %0A    %7D%0A%0A    for \n-i\n+_ ,valor\n  := range arr %7B%0A\n@@ -255,22 +255,21 @@\n Println(\n-arr%5Bi%5D\n+valor\n )%0A    %7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-14_17-49-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n    fmt.Scan(&N)\n    var  arr []int= make([]int, N)\n    for i := range arr {\n        fmt.Scan(&arr[i])\n    }\n    if N == 0 {\n        fmt.Print(\"\\n\")\n    }\n\n    for i := range arr {\n        fmt.Println(arr[i])\n    }\n}\n",
+            "lines": "17"
+        }
+    ]
+}

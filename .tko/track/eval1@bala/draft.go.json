@@ -1,0 +1,149 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_16-54-20",
+            "content": "@@ -41,123 +41,34 @@\n     \n-var x1, y1, x2, y2 float64%0A    fmt.Scan(&x1,&y1,&x2,&y2)%0A    fmt.Print(%22(x2-x1)2 + (y2-y1)2%22)%0A    fmt.Print(%22%25.2f%5Cn\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-07-47",
+            "content": "@@ -102,20 +102,21 @@\n     fmt.\n-Scan\n+Print\n (%22(x2-x1\n@@ -144,17 +144,16 @@\n mt.Print\n-f\n (%22%25.2f%5Cn\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-12-12",
+            "content": "@@ -102,22 +102,20 @@\n     fmt.\n-Printf\n+Scan\n (%22(x2-x1\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-12-36",
+            "content": "@@ -159,17 +159,8 @@\n f%5Cn%22\n-, float32\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-12-54",
+            "content": "@@ -162,14 +162,14 @@\n %22, float\n-64\n+32\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-13-06",
+            "content": "@@ -68,26 +68,8 @@\n t64%0A\n-    var resultado%0A\n     \n@@ -98,25 +98,26 @@\n y2)%0A    \n-resultado\n+fmt.Printf\n (%22(x2-x1\n@@ -161,17 +161,15 @@\n n%22, \n-resultado\n+float64\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-15-10",
+            "content": "@@ -81,24 +81,16 @@\n esultado\n- float64\n %0A    fmt\n@@ -116,25 +116,25 @@\n y2)%0A    \n-fmt.Print\n+resultado\n (%22(x2-x1\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-15-46",
+            "content": "@@ -142,17 +142,16 @@\n %22(x2-x1)\n-*\n 2 + (y2-\n@@ -157,9 +157,8 @@\n -y1)\n-*\n 2%22)%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-16-34",
+            "content": "@@ -133,17 +133,16 @@\n mt.Print\n-f\n (%22(x2-x1\n@@ -142,16 +142,17 @@\n %22(x2-x1)\n+*\n 2 + (y2-\n@@ -154,16 +154,17 @@\n  (y2-y1)\n+*\n 2%22)%0A    \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-17-24",
+            "content": "@@ -133,16 +133,17 @@\n mt.Print\n+f\n (%22(x2-x1\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-17-47",
+            "content": "@@ -137,10 +137,8 @@\n rint\n-ln\n (%22(x\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-17-55",
+            "content": "@@ -133,16 +133,18 @@\n mt.Print\n+ln\n (%22(x2-x1\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-18-06",
+            "content": "@@ -106,10 +106,8 @@\n Scan\n-ln\n (&x1\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-18-18",
+            "content": "@@ -102,16 +102,18 @@\n fmt.Scan\n+ln\n (&x1,&y1\n@@ -130,20 +130,21 @@\n     fmt.\n-Scan\n+Print\n (%22(x2-x1\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-19-28",
+            "content": "@@ -82,19 +82,23 @@\n sultado \n-int\n+float64\n %0A    fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-19-47",
+            "content": "@@ -82,23 +82,19 @@\n sultado \n-float64\n+int\n %0A    fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-20-21",
+            "content": "@@ -138,9 +138,8 @@\n an(%22\n-/\n (x2-\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-23-11",
+            "content": "@@ -134,17 +134,17 @@\n t.Scan(%22\n-%5C\n+/\n (x2-x1)2\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-23-19",
+            "content": "@@ -134,16 +134,17 @@\n t.Scan(%22\n+%5C\n (x2-x1)2\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-23-51",
+            "content": "@@ -23,22 +23,8 @@\n mt%22%0A\n-       %22math%22%0A\n func\n@@ -158,14 +158,8 @@\n 1)2%22\n-, math\n )%0A  \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-26-05",
+            "content": "@@ -19,18 +19,16 @@\n t %22fmt%22%0A\n-%0A%0A\n        %22\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-13_17-26-15",
+            "content": "@@ -22,18 +22,18 @@\n fmt%22\n- %7B\n+%0A%0A\n %0A       \n impo\n@@ -32,21 +32,14 @@\n     \n-import\n %22math%22\n-%7D\n %0Afun\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-28-44",
+            "content": "@@ -22,22 +22,31 @@\n fmt%22\n-%0A\n+ %7B%0A       \n import\n- \n %22math%22\n+%7D\n %0Afun\n@@ -87,16 +87,42 @@\n float64%0A\n+    var resultado float64%0A\n     fmt.\n@@ -151,41 +151,18 @@\n     \n-coordenadas := math.Sqrt(math.Pow\n+fmt.Scan(%22\n (x2-\n@@ -176,16 +176,23 @@\n (y2-y1)2\n+%22, math\n )%0A    fm\n@@ -214,19 +214,17 @@\n n%22, \n-coordenadas\n+resultado\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-13_17-35-04",
+            "content": "@@ -10,35 +10,35 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-%09\n+import \n %22math%22%0A\n-)%0A\n func\n@@ -156,29 +156,19 @@\n -x1)\n-,\n 2 + \n-(math.Pow\n (y2-y1\n-,\n+)\n 2)%0A \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-36-31",
+            "content": "@@ -154,17 +154,16 @@\n x2-x1),2\n-)\n  + (math\n@@ -175,17 +175,16 @@\n y2-y1,2)\n-)\n %0A    fmt\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-37-51",
+            "content": "@@ -158,16 +158,17 @@\n 1),2) + \n+(\n math.Pow\n@@ -176,16 +176,17 @@\n y2-y1,2)\n+)\n %0A    fmt\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-40-21",
+            "content": "@@ -158,12 +158,12 @@\n 1),2\n+)\n  + \n-(\n math\n@@ -175,18 +175,16 @@\n y2-y1,2)\n-))\n %0A    fmt\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-41-27",
+            "content": "@@ -151,19 +151,19 @@\n ow(x2-x1\n+)\n ,2\n-)\n  + (math\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-42-08",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\nfunc main() {\n    var x1, y1, x2, y2 float64\n    fmt.Scan(&x1,&y1,&x2,&y2)\n    coordenadas := math.Sqrt(math.Pow(x2-x1,2) + (math.Pow(y2-y1,2)))\n    fmt.Printf(\"%.2f\\n\", coordenadas)\n}\n",
+            "lines": "12"
+        }
+    ]
+}

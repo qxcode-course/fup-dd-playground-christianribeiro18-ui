@@ -1,0 +1,7 @@
+2026-04-27 16:34:14, MOVE, v:1, k:fup@abs, mode:PICK
+2026-04-27 16:34:15, EXEC, v:1, k:fup@abs, mode:FULL, size:8, fail:COMP
+2026-04-27 16:34:25, MOVE, v:1, k:fup@abs, mode:BACK
+2026-04-27 16:34:28, MOVE, v:1, k:fup@abs, mode:PICK
+2026-04-27 16:34:29, EXEC, v:1, k:fup@abs, mode:FULL, fail:COMP
+2026-04-27 16:42:58, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-27 16:55:37, MOVE, v:1, k:fup@abs, mode:EDIT

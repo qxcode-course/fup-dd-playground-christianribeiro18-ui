@@ -1,0 +1,69 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-06_17-11-18",
+            "content": "@@ -471,16 +471,19 @@\n ulo: %25.2\n+f%5Cn\n %22, area)\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-06_17-12-16",
+            "content": "@@ -475,11 +475,8 @@\n  %25.2\n-f/n\n %22, a\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-06_17-13-23",
+            "content": "@@ -19,16 +19,75 @@\n t %22fmt%22%0A\n+func main() %7B%0A    package main%0A%0Aimport (%0A%09%22fmt%22%0A%09%22math%22%0A)%0A%0A\n func mai\n@@ -476,9 +476,9 @@\n %25.2f\n-%5C\n+/\n n%22, \n@@ -485,8 +485,10 @@\n area)%0A%7D%0A\n+%7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-06_17-15-10",
+            "content": "@@ -17,22 +17,13 @@\n ort \n-(\n %22fmt%22\n- %22math%22)\n %0Afun\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-06_17-17-42",
+            "content": "@@ -23,10 +23,8 @@\n fmt%22\n- ,\n  %22ma\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-06_17-17-50",
+            "content": "@@ -20,17 +20,18 @@\n  (%22fmt%22 \n-%0A\n+, \n %22math%22)%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-06_17-18-02",
+            "content": "@@ -27,17 +27,16 @@\n  %0A%22math%22\n-%0A\n )%0Afunc m\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-06_17-18-10",
+            "content": "@@ -18,24 +18,15 @@\n rt (\n-%0A    \n %22fmt%22 %0A\n-    \n %22mat\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-06_17-18-52",
+            "content": "@@ -106,16 +106,29 @@\n o a: %22)%0A\n+%09fmt.Scan(&a)\n %0A%09fmt.Pr\n@@ -153,16 +153,28 @@\n  b: %22)%0A%09\n+fmt.Scan(&b)\n %0A%09fmt.Pr\n@@ -198,16 +198,29 @@\n o c: %22)%0A\n+%09fmt.Scan(&c)\n %0A%09if a+b\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-06_17-30-34",
+            "content": "@@ -110,21 +110,8 @@\n  %22)%0A\n-%09fmt.Scan(&a)\n %0A%09fm\n@@ -144,20 +144,8 @@\n %22)%0A%09\n-fmt.Scan(&b)\n %0A%09fm\n@@ -177,21 +177,8 @@\n  %22)%0A\n-%09fmt.Scan(&c)\n %0A%09if\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-06_17-35-42",
+            "content": "@@ -83,29 +83,125 @@\n fmt.\n-Scan(&a)%0A%09fmt.Scan(&b\n+Print(%22Digite o lado a: %22)%0A%09fmt.Scan(&a)%0A%09fmt.Print(%22Digite o lado b: %22)%0A%09fmt.Scan(&b)%0A%09fmt.Print(%22Digite o lado c: %22\n )%0A%09f\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-06_17-37-17",
+            "content": "@@ -116,16 +116,127 @@\n can(&c)%0A\n+%09if a+b %3C= c %7C%7C a+c %3C= b %7C%7C b+c %3C= a %7B%0A%09%09fmt.Println(%22Os valores n%C3%A3o formam um tri%C3%A2ngulo v%C3%A1lido.%22)%0A%09%09return%0A%09%7D%0A\n %09s := (a\n@@ -314,16 +314,35 @@\n Printf(%22\n+%C3%81rea do tri%C3%A2ngulo: \n %25.2f%5Cn%22,\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-06_17-38-51",
+            "content": "package main\nimport (\n    \"fmt\" \n    \"math\"\n)\nfunc main() {\n\tvar a, b, c float64\n\tfmt.Scan(&a)\n\tfmt.Scan(&b)\n\tfmt.Scan(&c)\n\ts := (a + b + c) / 2\n\tarea := math.Sqrt(s * (s - a) * (s - b) * (s - c))\n\tfmt.Printf(\"%.2f\\n\", area)\n}\n",
+            "lines": "14"
+        }
+    ]
+}
