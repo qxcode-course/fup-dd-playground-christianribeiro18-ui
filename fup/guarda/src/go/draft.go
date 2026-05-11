@@ -3,11 +3,13 @@ import "fmt"
 func main() {
     var wifi, login, admin int
     fmt.Scan(&wifi, &login, &admin)
-    if !wifi == 1 {
+    if wifi ==0 {
         fmt.Println("you must connect to wifi")
-    } else if !login ==1 {
-        fmt.Println("you need to login fist")
-    } else if !login ==1{
-        fmt.Println("you must login as admin")
+    } else if login ==0 {
+        fmt.Println("you need to login first")
+    } else if admin ==0 {
+        fmt.Println("you must to login as admin")
+    } else {
+        fmt.Println("done")
     }
 }

@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-05_17-35-24",
+            "content": "@@ -41,74 +41,35 @@\n     \n-var A, B, C int%0A    fmt.Scan(&A, &B, &C)%0A    if A  %7B%0A        %0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_17-45-16",
+            "content": "@@ -91,71 +91,8 @@\n f A \n-== B & C%7B%0A%0A    %7D else if B == C & A %7B%0A%0A    %7D else if C == A & B\n  %7B%0A \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-50-29",
+            "content": "@@ -101,99 +101,36 @@\n  C%7B%0A\n-        fmt.Println(A == B & C)%0A    %7D else if B == C & A %7B%0A        fmt.Println(B  == C & A)\n+%0A    %7D else if B == C & A %7B%0A\n %0A   \n@@ -165,31 +165,8 @@\n     \n-fmt.Println(C == A & B)\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-55-25",
+            "content": "@@ -97,13 +97,8 @@\n  B &\n-& A==\n  C%7B%0A\n@@ -117,16 +117,26 @@\n Println(\n+A == B & C\n )%0A    %7D \n@@ -156,16 +156,48 @@\n C & A %7B%0A\n+        fmt.Println(B  == C & A)\n %0A    %7D e\n@@ -224,16 +224,39 @@\n         \n+fmt.Println(C == A & B)\n %0A    %7D%0A%7D\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-59-10",
+            "content": "@@ -126,11 +126,11 @@\n tln(\n-3\n )%0A\n+ \n    %7D\n@@ -142,52 +142,59 @@\n  if \n-A== B %7C%7C B== C %7C%7C\n+B == C & A %7B%0A%0A    %7D else if\n  C\n+ \n == A\n+ & B \n %7B%0A    \n-fmt.Println(2)%0A\n+    %0A \n    %7D\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-03-17",
+            "content": "@@ -186,40 +186,8 @@\n (2)%0A\n-   %7D else  %7B%0A    fmt.Println(0)%0A\n    %7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-05_18-04-13",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B, C int\n    fmt.Scan(&A, &B, &C)\n    if A == B && A== C{\n        fmt.Println(3)\n   } else if A== B || B== C || C== A{\n    fmt.Println(2)\n   } else  {\n    fmt.Println(0)\n   }\n}\n",
+            "lines": "13"
+        }
+    ]
+}

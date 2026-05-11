@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-05_18-05-10",
+            "content": "@@ -41,75 +41,35 @@\n     \n-var P, D1, D2 int%0A    fmt.Scan(&P, &D1, &D2)%0A    if %7B%0A        %0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_18-11-36",
+            "content": "@@ -93,121 +93,8 @@\n  if \n-P== 0%7B%0A        fmt.Println(%22par%22)%0A    %7D else if P==1 %7B%0A        fmt.Println(%22impar%22)%0A    %7D else if D1 %3E0 && D1 %3C5 \n %7B%0A  \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-23-32",
+            "content": "@@ -116,17 +116,21 @@\n Println(\n-0\n+%22par%22\n )%0A    %7D \n@@ -164,17 +164,23 @@\n Println(\n-1\n+%22impar%22\n )%0A    %7D \n@@ -204,16 +204,24 @@\n D1 %3C5 %7B%0A\n+        \n %0A    %7D%0A%7D\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-24-09",
+            "content": "@@ -116,17 +116,17 @@\n Println(\n-1\n+0\n )%0A    %7D \n@@ -152,33 +152,33 @@\n     fmt.Println(\n-0\n+1\n )%0A    %7D else if \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-24-19",
+            "content": "@@ -108,33 +108,33 @@\n     fmt.Println(\n-0\n+1\n )%0A    %7D else if \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-24-27",
+            "content": "@@ -160,17 +160,17 @@\n Println(\n-1\n+0\n )%0A    %7D \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-24-37",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var P, D1, D2 int\n    fmt.Scan(&P, &D1, &D2)\n    if P== 0{\n        fmt.Println(0)\n    } else if P==1 {\n        fmt.Println(1)\n    } else if D1 >0 && D1 <5 {\n\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}
