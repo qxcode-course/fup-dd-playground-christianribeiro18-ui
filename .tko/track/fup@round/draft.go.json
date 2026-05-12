@@ -1,0 +1,64 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-11_16-39-58",
+            "content": "@@ -41,104 +41,35 @@\n     \n-var r string%0A    var n float64%0A    fmt.Scan(&r, &n)%0A    if r == %22+%22 %7B%0A        fmt.Println()%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-29-03",
+            "content": "@@ -41,519 +41,104 @@\n     \n-package main%0A%0Aimport (%0A%09%22fmt%22%0A%09%22math%22%0A)%0Afunc aplicarCeil(valor float64) int %7B%0A%09return int(math.Ceil(valor))%0A%7D%0A%0Afunc aplicarFloor(valor float64) int %7B%0A%09return int(math.Floor(valor))%0A%7D%0A%0Afunc aplicarRound(valor float64) int %7B%0A%09return int(math.Round(valor))%0A%7D%0A%0Afunc main() %7B%0A%09var operacao string%0A%09var valor float64%0A%0A%09fmt.Scan(&operacao)%0A%09fmt.Scan(&valor)%0A%0A%09switch operacao %7B%0A%09case %22c%22:%0A%09%09fmt.Println(aplicarCeil(valor))%0A%09case %22f%22:%0A%09%09fmt.Println(aplicarFloor(valor))%0A%09case %22r%22:%0A%09%09fmt.Println(aplicarRound(valor))%0A%09%7D%0A\n+var r string%0A    var n float64%0A    fmt.Scan(&r, &n)%0A    if r == %22+%22 %7B%0A        fmt.Println()%0A    \n %7D%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-12_16-31-33",
+            "content": "@@ -6,29 +6,59 @@\n ge main%0A\n-func main() %7B\n+import %22fmt%22%0Afunc main() %7B%0A    package main\n %0A%0Aimport\n",
+            "lines": "38"
+        },
+        {
+            "label": "2026-05-12_16-32-01",
+            "content": "@@ -6,16 +6,31 @@\n ge main%0A\n+func main() %7B%0A%0A\n import (\n",
+            "lines": "36"
+        },
+        {
+            "label": "2026-05-12_16-32-09",
+            "content": "@@ -10,53 +10,8 @@\n ain%0A\n-import %22fmt%22%0Afunc main() %7B%0A    package main%0A%0A\n impo\n@@ -304,17 +304,16 @@\n loat64%0A%0A\n-%0A\n %09fmt.Sca\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-05-12_16-32-28",
+            "content": "@@ -1,20 +1,45 @@\n+package main%0Aimport %22fmt%22\n %0Afunc main() %7B%0A    p\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-05-12_16-32-41",
+            "content": "@@ -1,8 +1,22 @@\n+%0Afunc main() %7B\n %0A    pac\n",
+            "lines": "38"
+        },
+        {
+            "label": "2026-05-12_16-32-50",
+            "content": "@@ -1,23 +1,8 @@\n-%0A%0Afunc main() %7B\n %0A    pac\n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-05-12_16-33-04",
+            "content": "@@ -1,8 +1,23 @@\n+%0A%0Afunc main() %7B\n %0A    pac\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-05-12_16-33-33",
+            "content": "@@ -1,8 +1,13 @@\n+%0A    \n package \n@@ -41,45 +41,8 @@\n h%22%0A)\n-%0A%0A// ceil: sempre arredonda para cima\n %0Afun\n@@ -113,46 +113,8 @@\n %0A%7D%0A%0A\n-// floor: sempre arredonda para baixo%0A\n func\n@@ -186,186 +186,46 @@\n %0A%7D%0A%0A\n-// round: arredonda para baixo se %3C 0.5 e para cima se %3E= 0.5%0Afunc aplicarRound(valor float64) int %7B%0A%09// math.Round segue a regra padr%C3%A3o de arredondar para o inteiro mais pr%C3%B3ximo\n+func aplicarRound(valor float64) int %7B\n %0A%09re\n@@ -314,38 +314,8 @@\n 64%0A%0A\n-%09// Lendo a opera%C3%A7%C3%A3o e o valor\n %0A%09fm\n@@ -512,8 +512,10 @@\n ))%0A%09%7D%0A%7D%0A\n+%7D%0A\n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-05-12_16-33-48",
+            "content": "@@ -34,16 +34,52 @@\n ath%22%0A)%0A%0A\n+// ceil: sempre arredonda para cima%0A\n func apl\n@@ -137,24 +137,62 @@\n (valor))%0A%7D%0A%0A\n+// floor: sempre arredonda para baixo%0A\n func aplicar\n@@ -255,46 +255,187 @@\n )%0A%7D%0A\n-func aplicarRound(valor float64) int %7B\n+%0A// round: arredonda para baixo se %3C 0.5 e para cima se %3E= 0.5%0Afunc aplicarRound(valor float64) int %7B%0A%09// math.Round segue a regra padr%C3%A3o de arredondar para o inteiro mais pr%C3%B3ximo\n %0A%09re\n@@ -520,16 +520,47 @@\n loat64%0A%0A\n+%09// Lendo a opera%C3%A7%C3%A3o e o valor%0A\n %09fmt.Sca\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-05-12_16-34-23",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\n\nfunc aplicarCeil(valor float64) int {\n\treturn int(math.Ceil(valor))\n}\n\nfunc aplicarFloor(valor float64) int {\n\treturn int(math.Floor(valor))\n}\nfunc aplicarRound(valor float64) int {\n\treturn int(math.Round(valor))\n}\n\nfunc main() {\n\tvar operacao string\n\tvar valor float64\n\n\tfmt.Scan(&operacao)\n\tfmt.Scan(&valor)\n\n\tswitch operacao {\n\tcase \"c\":\n\t\tfmt.Println(aplicarCeil(valor))\n\tcase \"f\":\n\t\tfmt.Println(aplicarFloor(valor))\n\tcase \"r\":\n\t\tfmt.Println(aplicarRound(valor))\n\t}\n}\n",
+            "lines": "34"
+        }
+    ]
+}

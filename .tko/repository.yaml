@@ -22,11 +22,13 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@if1
 - fup@list
-- fup@games
 - fup@string
+- fup@for1
 - fup@base
+- fup@if1
+- fup@games
+- fup@if2
 flags:
   inbox: all
   panel: graph
@@ -34,5 +36,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@impar
-selected_index: 23
+selected: fup@loop_i
+selected_index: 43

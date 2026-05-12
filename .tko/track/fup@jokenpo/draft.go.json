@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_17-28-33",
+            "content": "@@ -41,188 +41,35 @@\n     \n-var jog1, jog2 string%0A    var pedra, papel, tesoura string%0A    fmt.Scan(&jog1, &jog2)%0A    fmt.Scan(&pedra, &papel, &tesoura)%0A    if jog1 == jog2%7B%0A        fmt.Println(%22empate%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_17-37-48",
+            "content": "@@ -67,368 +67,118 @@\n     \n-fmt.Scan(&jog1, &jog2)%0A    if jog1 == jog2%7B%0A        fmt.Println(%22empate%22)%0A    %7D else if jog1==%22P%22 && jog2==%22R%22 %7B%0A        fmt.Println(%22jog1%22)%0A    %7D else if jog1==%22S%22 && jog2==%22P%22 %7B%0A        fmt.Println(%22\n+var pedra, papel, tesoura string%0A    fmt.Scan(&\n jog1\n-%22)%0A    %7D else if jog1==%22R%22 && jog2==%22S%22 %7B%0A        fmt.Println(%22jog1%22)%0A    %7D else if jog1==%22R%22 && jog2==%22P%22 %7B%0A        fmt.Println(%22jog2%22)%0A    %7D else\n+, &jog2)%0A    fmt.Scan(&pedra, &papel, &tesoura)%0A   \n  if jog1\n ==%22P\n@@ -177,27 +177,16 @@\n jog1\n+ \n ==\n-%22P%22 && jog2==%22S%22 \n+ jog2\n %7B%0A  \n@@ -208,87 +208,22 @@\n ln(%22\n-jog2%22)%0A    %7D else if jog1==%22R%22 && jog2==%22S%22 %7B%0A        fmt.Println(%22jog2\n+empate\n %22)%0A    %7D\n  %0A%7D%0A\n@@ -218,12 +218,11 @@\n %22)%0A    %7D\n- \n %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-12_17-48-09",
+            "content": "@@ -485,33 +485,33 @@\n  else if jog1==%22\n-S\n+R\n %22 && jog2==%22P%22 %7B\n@@ -498,33 +498,33 @@\n ==%22R%22 && jog2==%22\n-P\n+S\n %22 %7B%0A        fmt.\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-12_17-48-46",
+            "content": "@@ -498,33 +498,33 @@\n ==%22S%22 && jog2==%22\n-R\n+P\n %22 %7B%0A        fmt.\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-12_17-49-04",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var jog1, jog2 string\n    fmt.Scan(&jog1, &jog2)\n    if jog1 == jog2{\n        fmt.Println(\"empate\")\n    } else if jog1==\"P\" && jog2==\"R\" {\n        fmt.Println(\"jog1\")\n    } else if jog1==\"S\" && jog2==\"P\" {\n        fmt.Println(\"jog1\")\n    } else if jog1==\"R\" && jog2==\"S\" {\n        fmt.Println(\"jog1\")\n    } else if jog1==\"R\" && jog2==\"P\" {\n        fmt.Println(\"jog2\")\n    } else if jog1==\"P\" && jog2==\"S\" {\n        fmt.Println(\"jog2\")\n    } else if jog1==\"S\" && jog2==\"R\" {\n        fmt.Println(\"jog2\")\n    } \n}\n",
+            "lines": "21"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_16-36-35",
+            "content": "@@ -41,463 +41,35 @@\n     \n-var nota1, nota2, notaFinal int%0A    fmt.Println(&nota1,&nota2, &notaFinal)%0A    if nota1 %3E= 7 && nota2%3E=7 %7B%0A        fmt.Println(%22aprovado%22)%0A    %7D else if nota1%3C4 && nota2%3C4 %7B%0A        fmt.Println(%22reprovado%22)%0A    %7D else if nota1%3E=4 && nota1 %3C=7 && nota2%3E=4 && nota2%3C=7 %7B%0A        fmt.Println(%22aprovadona final%22)%0A    %7D else if notaFinal %3E=5 %7B%0A        fmt.Println(%22aprovado na final%22)%0A    %7D else if notaFinal %3C5 %7B%0A        fmt.Println(%22reprovado na final%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_17-09-34",
+            "content": "@@ -81,11 +81,14 @@\n fmt.\n-Sca\n+Printl\n n(&n\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-11-29",
+            "content": "@@ -120,27 +120,29 @@\n  if \n-(\n nota1\n-+nota2)/2 == \n+ %3E= 7 && nota2%3E=\n 7 %7B%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-12-39",
+            "content": "@@ -132,18 +132,19 @@\n ota2)/2 \n-%3E\n =\n+= \n 7 %7B%0A    \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-13-05",
+            "content": "@@ -184,32 +184,32 @@\n else if \n-(\n nota1\n-+\n+%3C4 && \n nota2\n-)/2 \n %3C4 %7B%0A   \n@@ -256,48 +256,52 @@\n  if \n-(\n nota1\n-+nota2)/2 %3E=4\n+%3E=4 && nota1 %3C=7\n  && \n-(\n nota\n-1+nota2)/2 %3C\n+2%3E=4 && nota2%3C=\n 7 %7B%0A\n@@ -321,33 +321,32 @@\n rintln(%22aprovado\n- \n na final%22)%0A    %7D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-16-52",
+            "content": "@@ -360,30 +360,16 @@\n otaFinal\n-+(nota1+nota2)\n  %3E=5 %7B%0A \n@@ -435,22 +435,8 @@\n inal\n-+(nota1+nota2)\n  %3C5 \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-18-34",
+            "content": "@@ -394,34 +394,33 @@\n    fmt.Println(%22\n-re\n+a\n provado na final\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-18-48",
+            "content": "@@ -261,34 +261,125 @@\n nota\n-Final+((nota1+nota2)/2))/2\n+1+nota2)/2 %3E=4 && (nota1+nota2)/2 %3C7 %7B%0A        fmt.Println(%22aprovado na final%22)%0A    %7D else if notaFinal+(nota1+nota2)\n  %3E=5\n@@ -394,33 +394,34 @@\n    fmt.Println(%22\n-a\n+re\n provado na final\n@@ -434,16 +434,46 @@\n  %7D else \n+if notaFinal+(nota1+nota2) %3C5 \n %7B%0A      \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-12_17-27-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notaFinal int\n    fmt.Scan(&nota1,&nota2, &notaFinal)\n    if (nota1+nota2)/2 >=7 {\n        fmt.Println(\"aprovado\")\n    } else if (nota1+nota2)/2 <4 {\n        fmt.Println(\"reprovado\")\n    } else if (notaFinal+((nota1+nota2)/2))/2 >=5 {\n        fmt.Println(\"aprovado na final\")\n    } else {\n        fmt.Println(\"reprovado na final\")\n    }\n}\n",
+            "lines": "15"
+        }
+    ]
+}

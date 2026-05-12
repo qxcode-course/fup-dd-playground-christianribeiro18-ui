@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-11_17-46-51",
+            "content": "@@ -41,50 +41,35 @@\n     \n-var a,b,c int%0A    fmt.Scan(&a, &b, &c)%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-51-49",
+            "content": "@@ -84,151 +84,7 @@\n     \n-if a%3Eb && b%3Ec %7B%0A        fmt.Println(b)%0A    %7D else if b%3Ec && c%3Ea %7B%0A        fmt.Println(c)%0A    %7D else if c%3Ea && a%3Eb %7B%0A        fmt.Println(a)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-11_18-01-21",
+            "content": "@@ -138,9 +138,9 @@\n if b\n-%3C\n+%3E\n c &&\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_18-05-03",
+            "content": "@@ -134,17 +134,17 @@\n lse if b\n-%3E\n+%3C\n c && c%3Ea\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_18-05-43",
+            "content": "@@ -223,209 +223,8 @@\n (a)%0A\n-    %7D else if c %3Eb && c%3Ca %7B%0A        fmt.Println(c)%0A    %7D else if b%3Ea && b%3Ec %7B%0A        fmt.Println(b)%0A    %7D else if a%3Cb && a%3Ec %7B%0A        fmt.Println(a)%0A    %7D else if a%3Eb && a%3Ec %7B%0A        fmt.Println(a)%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_18-16-51",
+            "content": "@@ -388,18 +388,18 @@\n  if \n-c\n+a\n %3Eb && \n-c%3Ca\n+a%3Ec\n  %7B%0A \n@@ -413,23 +413,23 @@\n fmt.Println(\n-c\n+a\n )%0A    %7D%0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_18-17-30",
+            "content": "@@ -292,17 +292,17 @@\n b%3Ea && b\n-%3C\n+%3E\n c %7B%0A    \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_18-18-19",
+            "content": "@@ -376,11 +376,60 @@\n )%0A    %7D \n+else if c%3Eb && c%3Ca %7B%0A        fmt.Println(c)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_18-19-19",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a,b,c int\n    fmt.Scan(&a, &b, &c)\n    if a>b && b>c {\n        fmt.Println(b)\n    } else if b>c && c>a {\n        fmt.Println(c)\n    } else if c>a && a>b {\n        fmt.Println(a)\n    } else if c >b && c<a {\n        fmt.Println(c)\n    } else if b>a && b<c {\n        fmt.Println(b)\n    } else if a<b && a>c {\n        fmt.Println(a)\n    } \n}\n",
+            "lines": "19"
+        }
+    ]
+}

@@ -32,8 +32,18 @@
         },
         {
             "label": "2026-05-05_18-24-37",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var P, D1, D2 int\n    fmt.Scan(&P, &D1, &D2)\n    if P== 0{\n        fmt.Println(0)\n    } else if P==1 {\n        fmt.Println(1)\n    } else if D1 >0 && D1 <5 {\n\n    }\n}\n",
+            "content": "@@ -198,29 +198,8 @@\n 5 %7B%0A\n-        fmt.Println()\n %0A   \n",
             "lines": "13"
+        },
+        {
+            "label": "2026-05-11_16-25-10",
+            "content": "@@ -100,42 +100,8 @@\n  0%7B%0A\n-        if (D1 + D2) %252== 0 %7B%0A    \n     \n@@ -127,26 +127,25 @@\n     \n- \n-   \n %7D else \n- %7B%0A    \n+if P==1 %7B%0A\n     \n@@ -167,18 +167,8 @@\n (1)%0A\n-        %7D%0A\n     \n@@ -178,80 +178,25 @@\n lse \n-%7B%0A       \n if \n-(\n D1 \n-+ D2) %252== 0 %7B%0A       %0A        fmt.Println(1)%0A    %7D else\n+%3E0 && D1 %3C5\n  %7B%0A \n@@ -218,17 +218,16 @@\n tln(\n-0\n )%0A    %7D%0A\n     \n@@ -226,18 +226,6 @@\n   %7D%0A\n-    %7D %0A    %0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_16-39-27",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var P, D1, D2 int\n    fmt.Scan(&P, &D1, &D2)\n    if P== 0{\n        if (D1 + D2) %2== 0 {\n            fmt.Println(0)\n        } else  {\n            fmt.Println(1)\n        }\n    } else {\n       if (D1 + D2) %2== 0 {\n       \n        fmt.Println(1)\n    } else {\n        fmt.Println(0)\n    }\n    } \n    \n}\n",
+            "lines": "21"
         }
     ]
 }
